@@ -330,9 +330,8 @@ footer .links li a {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .container .wrapper .released .show-container {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .container .wrapper .released .show-container .show-wrapper {
+    width: 20%;
   }
   .container .wrapper .top .movie-links ol {
     -webkit-box-orient: vertical;

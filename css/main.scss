@@ -312,7 +312,9 @@ footer {
 
       .released {
         .show-container {
-          flex-wrap: wrap;
+          .show-wrapper {
+            width: 20%;
+          }
         }
       }
 
