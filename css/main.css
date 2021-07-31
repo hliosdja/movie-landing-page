@@ -20,6 +20,7 @@ body {
   cursor: pointer;
   border: 0.5px solid #444343;
   color: #444343;
+  z-index: 10;
 }
 
 .back-to-top:hover {
@@ -313,7 +314,6 @@ footer .links li a {
   .container {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
   }
   .container .hero-section .hero-desc p {
     width: 50%;

@@ -3,7 +3,7 @@ const toTopButton = document.querySelector(".back-to-top");
 // when the user scrolls down 100px from the top of the document, show the button
 window.onscroll = function () {
   scrollFunction();
-  console.log("hello");
+  console.log("scrolling");
 };
 
 function scrollFunction() {

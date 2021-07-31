@@ -19,6 +19,7 @@ body {
   cursor: pointer;
   border: 0.5px solid #444343;
   color: #444343;
+  z-index: 10;
 
   &:hover {
     background: #444343;
@@ -293,7 +294,6 @@ footer {
   .container {
     width: 80%;
     margin: 0 auto;
-    border: 1px solid black;
 
     .hero-section {
       .hero-desc {
